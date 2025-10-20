@@ -80,4 +80,12 @@ public class Pet {
         }
     }
 
+    public void printAttributes() {
+        System.out.println("Hunger: " + getHunger());
+        System.out.println("Boredom: " + getBoredom());
+        System.out.println("Sleepiness: " + getSleepiness());
+        System.out.println("Happiness: " + getHappiness());
+        System.out.println("Hygiene: " + getHygiene());
+    }
+
 }
